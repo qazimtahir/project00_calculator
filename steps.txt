@@ -1,0 +1,22 @@
+1. npm init -y (To start node project)
+2. tsc --init (To start TS project)
+3. Update tsconfig.json file:
+    i. change line No. 14: "target": "es2016" to ES2023
+    ii. change line No. 28: "module": "commonjs", to "NodeNext"
+    iii. change line No. 30: "moduleResolution": "node10", to "NodeNext"
+    iv. line No. 58: "outDir": "./dist", 
+4. Open package.json file and add a new line: 
+    i. "type": "module",
+    ii. update "main": "./dist/cliCalculator.js"
+6. npm install inquirer -g -D
+7. npm install @types/inquirer
+8. npm install chalkS
+
+
+9. Create a file cliCalculator.ts file.
+10. add this in package.json "bin": "./dist/cliCalculator.js",
+11. #! /usr/bin/env node  add this in main .ts file.
+12. sudo npm i -g
+13. npm login
+14. npm publish
+
