@@ -14,8 +14,8 @@
 
 
 9. Create a file cliCalculator.ts file.
-10. add this in package.json "bin": "./dist/cliCalculator.js",
-11. #! /usr/bin/env node  add this in main .ts file.
+10. add this in package.json                    "bin": "./dist/cliCalculator.js",
+11. #! /usr/bin/env node                            add this in main .ts file.
 12. sudo npm i -g
 13. npm login
 14. npm publish
